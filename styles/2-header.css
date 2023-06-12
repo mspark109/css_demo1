@@ -1,9 +1,13 @@
 .header {
   position: sticky;
+  top: 0;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   background-color: var(--color-main);
   color: white;
+  height: var(--height-toolbar);
+  line-height: var(--height-toolbar);
 }
 
 .header__homelink {
@@ -15,6 +19,8 @@
 
 img.header__logo {
   width: 96px;
+  height: var(--height-toolbar);
+  line-height: var(--height-toolbar);
 }
 
 .header__nav ul {
